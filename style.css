@@ -1004,3 +1004,69 @@ line-height: 1.5rem;
     margin-left: 10%;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-primary: "Josefin Sans", sans-serif;
+  --font-secondary: "Roboto Condensed", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-primary);
+  overflow-x: hidden;
+}
+
+.hamburguer {
+  width: 2rem;
+  height: 2rem;
+  position: fixed;
+  z-index: 200;
+  right: 2rem;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+/* Restante do CSS */
+
+/* Media Queries */
+@media (max-width: 880px) {
+  /* Estilos para telas menores */
+}
+
+@media (max-width: 630px) {
+  /* Estilos para telas muito pequenas */
+}
+
+@media (min-width: 880px) {
+  /* Estilos para telas maiores */
+}
+
+/* Media Queries adicionais para telas muito grandes */
+@media (min-width: 1350px) {
+  /* Estilos para telas maiores */
+}
+
+@media (min-width: 1800px) {
+  /* Estilos para telas ainda maiores */
+}
+
+@media (min-width: 1950px) {
+  /* Estilos para telas muito grandes */
+}
+
+@media (min-width: 2250px) {
+  /* Estilos para telas extremamente grandes */
+}
