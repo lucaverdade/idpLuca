@@ -754,11 +754,88 @@ line-height: 1.5rem;
 .luca-header h3 {
   font-size: 1.4rem;
 }
+@media (max-width: 768px) {
+  .banner {
+    top: 10%;
+    left: 5%;
+    right: 5%;
+  }
+
+  .banner h1 {
+    font-size: 2.5rem;
+  }
+
+  .banner p {
+    font-size: 1.5rem;
+  }
+
+  .banner button {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 880px) {
+    .conhecimentos {
+      grid-template-columns: repeat(12, 1fr);
+    }
   
-@media (min-width: 880px) {
-  .container {
-    overflow-x: hidden;
-    text-align: center;
+    .lucaS {
+      grid-template-columns: repeat(16, 1fr);
+    }
+  }
+  
+  @media (max-width: 630px) {
+    .conhecimentos {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  
+    .lucaS {
+      grid-template-columns: repeat(14, 1fr);
+    }
+  }
+  @media (min-width: 1350px) {
+    .luca-img-wrapper {
+      width: 80%;
+      margin-top: 5%;
+      margin-left: 10%;
+    }
+  }
+  
+  @media (min-width: 1800px) {
+    .luca-img-wrapper {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 1950px) {
+    .luca-img-wrapper {
+      width: 60%;
+      margin-top: 5%;
+      margin-left: 10%;
+    }
+  }
+  
+  @media (min-width: 2250px) {
+    .luca-img-wrapper {
+      width: 50%;
+      margin-top: 5%;
+      margin-left: 10%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+    }
+    .social-list ul {
+      margin-top: 1rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .social-media i {
+      font-size: 1.5rem;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
   }
   .banner {
     position: absolute;
