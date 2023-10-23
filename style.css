@@ -1231,7 +1231,7 @@ line-height: 1.5rem;
 
 
 
-@media (max-width: 250px) {
+@media (max-width: 200px) {
   .conhecimento{
     min-height: auto;
     max-width: fit-content;
@@ -1269,11 +1269,11 @@ line-height: 1.5rem;
 
   .conhecimento:nth-child(2) /*CSS*/ {
     grid-column: 3 / 16;
-    grid-row: 7 / 9;
+    grid-row: 7 / 10;
   }
   .conhecimento:nth-child(3)/*Python*/ {
     grid-column: 3 / 16;
-    grid-row: 10 / 13;
+    grid-row: 11 / 13;
   }
   .conhecimento:nth-child(4)/*JavaScript*/ {
     grid-column: 3 / 16;
