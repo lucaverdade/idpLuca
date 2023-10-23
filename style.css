@@ -108,11 +108,14 @@ header {
 }
 
 .banner {
+  
   position: absolute;
   top: 20%;
   left: 10%;
 }
 .banner h1 {
+  position: relative;
+  top: 10px;
   color: #404a91;
   font-size: 3.5rem;
   font-family: var(--font-primary);
@@ -135,12 +138,13 @@ header {
   animation: moveBanner 1s 0.7s forwards;
 }
 .banner button {
+  position: relative;
+  top: 90px;
   font-family: var(--font-primary);
   color: rgb(226, 225, 233);
   background: #070c3d;
   background-image: linear-gradient(to bottom, #2952ba 0%, #330867 100%);
   opacity: 0;
-
   padding: 1rem 3rem;
   border: none;
   font-size: 1rem;
